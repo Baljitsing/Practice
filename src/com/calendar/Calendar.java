@@ -29,6 +29,7 @@ public class Calendar {
 		  List<WebElement> ls=driver.findElements(By.className("day"));
 			int count= ls.size();
 			System.out.println("The number of days are: "+count);
+			System.out.println("Hello");
 			
 			for(int i=0;i<count;i++)
 			{
